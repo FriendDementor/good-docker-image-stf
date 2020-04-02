@@ -5,5 +5,5 @@ git submodule update --init --recursive
 ./configure
 make
 make check
-sudo make install
-sudo ldconfig
+make install
+ldconfig
